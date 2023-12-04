@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "dnb_hub-nbdev"
+  site-url: "https://enjoki.github.io/dnb_hub-nbdev"
+  description: "testing out nbdev"
+  repo-branch: test_branch
+  repo-url: "https://github.com/enjoki/dnb_hub-nbdev"
