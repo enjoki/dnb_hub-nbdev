@@ -1,0 +1,14 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_core.ipynb
+      - section: classified_products
+        contents:
+          - classified_products/classified_products.ipynb
+      - section: ipc_classifications
+        contents:
+          - ipc_classifications/ipc_classifications.ipynb
+      - section: market_prices
+        contents:
+          - market_prices/marketprice.ipynb
