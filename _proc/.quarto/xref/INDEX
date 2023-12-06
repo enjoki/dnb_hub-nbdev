@@ -1,0 +1,17 @@
+{
+  "00_core.ipynb": {
+    "core.html": "98297014"
+  },
+  "ipc_classifications/ipc_classifications.ipynb": {
+    "ipc_classifications.html": "25e9b8a6"
+  },
+  "classified_products/classified_products.ipynb": {
+    "classified_products.html": "69a7c4af"
+  },
+  "market_prices/marketprice.ipynb": {
+    "marketprice.html": "48b266e0"
+  },
+  "index.ipynb": {
+    "index.html": "abe2c1d8"
+  }
+}
