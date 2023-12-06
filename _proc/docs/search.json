@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "dnb_hub-nbdev",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "dnb_hub-nbdev",
+    "section": "Install",
+    "text": "Install\npip install dnb_hub_nbdev"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "dnb_hub-nbdev",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "classified_products/classified_products.html",
+    "href": "classified_products/classified_products.html",
+    "title": "Fetching ipc_classifications using API",
+    "section": "",
+    "text": "import pandas as pd\nimport numpy as np\nimport plotly\nimport os\nimport json\nimport requests\n\nimport plotly.express as px\n\npd.set_option('display.max_columns', None)\npd.set_option('display.max_rows', None)\n\n\n\n\n# function to fetch data\ndef fetch_data(url):\n    response = requests.get(url)\n\n    if response.status_code == 200:\n        data = response.json()\n        df = pd.DataFrame(data)\n        return df\n    else:\n        print(f\"Failed to fetch data: {response.status_code} \")\n\n\n\n\n\nurl = \"https://fdw.fews.net/api/ipcclassification/\"\ndata = fetch_data(url)\n\n\nclassified_prds = data\nclassified_prds.shape\n\n\n\n\n\nclassified_prds.head()"
+  },
+  {
+    "objectID": "classified_products/classified_products.html#import-libraries",
+    "href": "classified_products/classified_products.html#import-libraries",
+    "title": "Fetching ipc_classifications using API",
+    "section": "",
+    "text": "import pandas as pd\nimport numpy as np\nimport plotly\nimport os\nimport json\nimport requests\n\nimport plotly.express as px\n\npd.set_option('display.max_columns', None)\npd.set_option('display.max_rows', None)\n\n\n\n\n# function to fetch data\ndef fetch_data(url):\n    response = requests.get(url)\n\n    if response.status_code == 200:\n        data = response.json()\n        df = pd.DataFrame(data)\n        return df\n    else:\n        print(f\"Failed to fetch data: {response.status_code} \")\n\n\n\n\n\nurl = \"https://fdw.fews.net/api/ipcclassification/\"\ndata = fetch_data(url)\n\n\nclassified_prds = data\nclassified_prds.shape\n\n\n\n\n\nclassified_prds.head()"
+  },
+  {
+    "objectID": "ipc_classifications/ipc_classifications.html",
+    "href": "ipc_classifications/ipc_classifications.html",
+    "title": "Fetching classified products usign API",
+    "section": "",
+    "text": "import pandas as pd\nimport numpy as np\nimport plotly\nimport os\nimport json\nimport requests\n\nimport plotly.express as px\n\npd.set_option('display.max_columns', None)\npd.set_option('display.max_rows', None)\n\n\n\n\n# function to fetch data\ndef fetch_data(url):\n    response = requests.get(url)\n\n    if response.status_code == 200:\n        data = response.json()\n        df = pd.DataFrame(data)\n        return df\n    else:\n        print(f\"Failed to fetch data: {response.status_code} \")\n\n\n\n\n\nurl = \"https://fdw.fews.net/api/classifiedproduct/\"\ndata = fetch_data(url)\n\n\nclassified_prds = data\nclassified_prds.shape\n\n\n\n\n\nclassified_prds.head()\n\n\nclassified_prds.tail()\n\n\n# testing the notebook"
+  },
+  {
+    "objectID": "ipc_classifications/ipc_classifications.html#import-libraries",
+    "href": "ipc_classifications/ipc_classifications.html#import-libraries",
+    "title": "Fetching classified products usign API",
+    "section": "",
+    "text": "import pandas as pd\nimport numpy as np\nimport plotly\nimport os\nimport json\nimport requests\n\nimport plotly.express as px\n\npd.set_option('display.max_columns', None)\npd.set_option('display.max_rows', None)\n\n\n\n\n# function to fetch data\ndef fetch_data(url):\n    response = requests.get(url)\n\n    if response.status_code == 200:\n        data = response.json()\n        df = pd.DataFrame(data)\n        return df\n    else:\n        print(f\"Failed to fetch data: {response.status_code} \")\n\n\n\n\n\nurl = \"https://fdw.fews.net/api/classifiedproduct/\"\ndata = fetch_data(url)\n\n\nclassified_prds = data\nclassified_prds.shape\n\n\n\n\n\nclassified_prds.head()\n\n\nclassified_prds.tail()\n\n\n# testing the notebook"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "foo\n\n foo ()"
+  },
+  {
+    "objectID": "api_visits/api_visits.html",
+    "href": "api_visits/api_visits.html",
+    "title": "Notebook to exlore API visits",
+    "section": "",
+    "text": "# code"
+  },
+  {
+    "objectID": "api_visits/api_visits.html#import-libraries",
+    "href": "api_visits/api_visits.html#import-libraries",
+    "title": "Notebook to exlore API visits",
+    "section": "",
+    "text": "# code"
+  },
+  {
+    "objectID": "api_visits/api_visits.html#function-to-make-api-call-and-prepare-data",
+    "href": "api_visits/api_visits.html#function-to-make-api-call-and-prepare-data",
+    "title": "Notebook to exlore API visits",
+    "section": "Function to make API call and prepare data",
+    "text": "Function to make API call and prepare data\n\n# code"
+  },
+  {
+    "objectID": "api_visits/api_visits.html#fetch-data-from-api-endpoint",
+    "href": "api_visits/api_visits.html#fetch-data-from-api-endpoint",
+    "title": "Notebook to exlore API visits",
+    "section": "Fetch data from API endpoint",
+    "text": "Fetch data from API endpoint\n\n# code"
+  },
+  {
+    "objectID": "api_visits/api_visits.html#take-a-sample-of-the-data",
+    "href": "api_visits/api_visits.html#take-a-sample-of-the-data",
+    "title": "Notebook to exlore API visits",
+    "section": "take a sample of the data",
+    "text": "take a sample of the data\n\n#code"
+  },
+  {
+    "objectID": "api_visits/api_visits.html#view-the-sample",
+    "href": "api_visits/api_visits.html#view-the-sample",
+    "title": "Notebook to exlore API visits",
+    "section": "view the sample",
+    "text": "view the sample"
+  },
+  {
+    "objectID": "market_prices/marketprice.html",
+    "href": "market_prices/marketprice.html",
+    "title": "Fetching Market prices with API",
+    "section": "",
+    "text": "import pandas as pd\nimport numpy as np\nimport plotly\nimport os\nimport json\nimport requests\n\nimport plotly.express as px\n\npd.set_option('display.max_columns', None)\npd.set_option('display.max_rows', None)\n\n\n\n\n# function to fetch data\ndef fetch_data(url):\n    response = requests.get(url)\n\n    if response.status_code == 200:\n        data = response.json()\n        df = pd.DataFrame(data)\n        return df\n    else:\n        print(f\"Failed to fetch data: {response.status_code} \")\n\n\n\n\n\nurl = \"https://fdw.fews.net/api/marketprice/\"\ndata = fetch_data(url)\n\n\nmarket_prices = data\nmarket_prices.shape\n\n\n\n\n\nmarket_prices.head()"
+  },
+  {
+    "objectID": "market_prices/marketprice.html#import-libraries",
+    "href": "market_prices/marketprice.html#import-libraries",
+    "title": "Fetching Market prices with API",
+    "section": "",
+    "text": "import pandas as pd\nimport numpy as np\nimport plotly\nimport os\nimport json\nimport requests\n\nimport plotly.express as px\n\npd.set_option('display.max_columns', None)\npd.set_option('display.max_rows', None)\n\n\n\n\n# function to fetch data\ndef fetch_data(url):\n    response = requests.get(url)\n\n    if response.status_code == 200:\n        data = response.json()\n        df = pd.DataFrame(data)\n        return df\n    else:\n        print(f\"Failed to fetch data: {response.status_code} \")\n\n\n\n\n\nurl = \"https://fdw.fews.net/api/marketprice/\"\ndata = fetch_data(url)\n\n\nmarket_prices = data\nmarket_prices.shape\n\n\n\n\n\nmarket_prices.head()"
+  }
+]
