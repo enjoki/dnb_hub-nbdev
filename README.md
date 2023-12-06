@@ -133,7 +133,3 @@ copy the provided url and open it on your browser.
 We welcome contributions from the community! If you have suggestions or
 improvements, please see our `CONTRIBUTING.md` for guidelines on
 how to make a pull request.
-<<<<<<< HEAD
-=======
-
->>>>>>> main
