@@ -87,7 +87,7 @@ pip install -r 'path-to-project-root-directory' requirements.txt
 
 On the terminal, with the  virtual environment activated. Run:
 
-```text
+```bash
 jupyter lab 
 ```
 
