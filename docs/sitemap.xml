@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://enjoki.github.io/dnb_hub-nbdev/index.html</loc>
-    <lastmod>2023-12-06T01:12:58.266Z</lastmod>
+    <lastmod>2023-12-06T06:45:24.270Z</lastmod>
   </url>
   <url>
     <loc>https://enjoki.github.io/dnb_hub-nbdev/classified_products/classified_products.html</loc>
-    <lastmod>2023-12-06T01:12:57.009Z</lastmod>
-  </url>
-  <url>
-    <loc>https://enjoki.github.io/dnb_hub-nbdev/core.html</loc>
-    <lastmod>2023-12-06T01:12:55.808Z</lastmod>
+    <lastmod>2023-12-06T06:45:23.075Z</lastmod>
   </url>
   <url>
     <loc>https://enjoki.github.io/dnb_hub-nbdev/ipc_classifications/ipc_classifications.html</loc>
-    <lastmod>2023-12-06T01:12:56.383Z</lastmod>
+    <lastmod>2023-12-06T06:45:22.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://enjoki.github.io/dnb_hub-nbdev/core.html</loc>
+    <lastmod>2023-12-06T06:45:21.708Z</lastmod>
+  </url>
+  <url>
+    <loc>https://enjoki.github.io/dnb_hub-nbdev/api_visits/api_visits.html</loc>
+    <lastmod>2023-12-06T06:45:22.484Z</lastmod>
   </url>
   <url>
     <loc>https://enjoki.github.io/dnb_hub-nbdev/market_prices/marketprice.html</loc>
-    <lastmod>2023-12-06T01:12:57.685Z</lastmod>
+    <lastmod>2023-12-06T06:45:23.690Z</lastmod>
   </url>
 </urlset>
